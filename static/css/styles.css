@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.filter-form {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.filter-form h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+.filter-form select,
+.filter-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.filter-form input[type="submit"] {
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+.filter-form input[type="submit"]:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

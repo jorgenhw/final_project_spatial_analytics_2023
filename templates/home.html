@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to the Bar Map</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="filter-form">
+        <h1>Welcome to the Bar Map!</h1>
+        <form action="/filter_bars" method="post">
+            Filter by price:
+            <select name="price">
+                <option value="anything goes">Anything goes</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            Filter by floor quality (scale 1-10):
+            <input type="number" min="1" max="10" name="floor_quality">
+            Filter by love potential (scale 1-10):
+            <input type="number" min="1" max="10" name="love_potential">
+            Filter by hygge factor (scale 1-10):
+            <input type="number" min="1" max="10" name="hygge_factor">
+            Wheelchair access:
+            <select name="wheelchair_access">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            Filter by party factor (scale 1-10):
+            <input type="number" min="1" max="10" name="party_factor">
+            <input type="submit" value="Filter">
+        </form>
+    </div>
+</body>
+</html>
