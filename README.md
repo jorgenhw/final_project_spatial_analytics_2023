@@ -108,7 +108,8 @@ This repository has the following structure:
 │       map.html
 │
 ├───static
-│       styles.css
+│        └── CSS
+│              styles.css
 │
 └──data
         Fredagsbarer_oversigt.xlsx
