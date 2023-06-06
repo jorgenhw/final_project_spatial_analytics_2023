@@ -15,7 +15,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About the project
-This web application built with Flask is a helpful tool for those interested in exploring Friday Bars in Aarhus. It enables users to filter bars based on several criteria like price, floor, and potential for social interaction. It also provides a mapping feature with routing and travel times between filtered bars as well as a location feature that show your own location on the map. 
+This web application built with Flask is a helpful tool for those interested in exploring Friday Bars in Aarhus. It enables users to filter bars based on several criteria like price, floor, and potential for social interaction. It also provides a mapping feature with routing and travel times between filtered bars as well as a location feature that show your own location on the map by the click of a button.
 
 <!-- USAGE -->
 ## Usage
@@ -73,15 +73,17 @@ bash setup.sh
 bash run.sh
 ```
 
+**NOTE** If you are running the script on an Ubuntu machine, you might have to run ```sudo apt-get install python3-venv``` in your terminal prior to running the ```setup.sh```.
+
 ## Run the web application
 Once you have run the ```run.sh``` the script will initiate. In the terminal of your IDE you'll find a link to a local webserver. Left-click it (on Mac Cmd-click) to open it. You should be greeted with an interface that allows you to filter Friday Bars based on either
 
-* Price
-* Wheelchair access
-* Party factor
-* Hygge factor
-* Dance floor quality
-* Love potential
+* Price on a single beer (high ≥ 15, medium = 9-14, low ≤ 8)
+* Wheelchair access (yes/no)
+* Party factor (1-10)
+* Hygge factor (1-10)
+* Dance floor quality (1-10)
+* Love potential (1-10)
 
 If you wish to change the filter after having applied them the first time, simply click on the "Return to Filtering" button in the top center of the screen.
 

@@ -1,5 +1,5 @@
 # install requirements.txt for project
-# Usage: source setup.sh
+# Usage: bash setup.sh
 
 # create virtual environment
 python3 -m venv bar_map_venv
