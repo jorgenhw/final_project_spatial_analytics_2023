@@ -106,7 +106,10 @@ def filter_bars():
     if party_factor:
         filtered_df = filtered_df[filtered_df['party_factor'] >= int(party_factor)]
 
-    bars = filtered_df.to_dict('records')  
+    if filtered_df.empty:
+        return "Your filters did not match any bars. Try to change them"
+    else:
+        bars = filtered_df.to_dict('records')  
     
     durations = []
     # create the map

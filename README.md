@@ -137,7 +137,22 @@ Here is a brief explanation of the columns in the data:
 
 Please note that this data is used to plot the bars on a map and to calculate routes between the bars using the OpenRouteService API. The API key for this service should be stored in an environment variable named ORS_API_KEY.
 
-`*` *It should be emphazised that these values are highly subjective and should be taken with a grain of salt. They were obtained by sending out a anonymous survey which people would fill out according to their own opinion. 83 different people answered on the survey and the numbers are calculated taking the mean of their ratings on each bar. Link to survey: https://forms.gle/PNzKhMwp41uXjgW1A*
+`*` *It should be emphazised that these values are highly subjective and should be taken with a grain of salt. They were obtained by sending out a anonymous survey which people would fill out according to their own opinion. 121 different people answered on the survey and the numbers are calculated taking the mean of their ratings on each bar. Link to survey: https://forms.gle/PNzKhMwp41uXjgW1A*
 
 <!-- RESULTS -->
-## Remarks on findings
+## Final remarks
+Developing this application has been an exciting journey into the world of spatial analytics and web development. The project demonstrates the capabilities of combining Flask and OpenRouteService to visualize and analyze spatial data in an interactive and user-friendly manner. While it was designed with the specific use case of Friday Bars in Aarhus in mind, the methodology can be applied to various other use cases involving geospatial data and routing.
+
+The implementation, however, is not without its limitations and areas for improvement. The data source is mainly based on survey responses, which might be subjective and inconsistent. Moreover, the reliance on an external API for routing poses certain restrictions on data coverage and service availability.
+
+Future improvements might include integrating more reliable data sources or refining the survey method to enhance the quality of data. Additionally, deploying the application on a public server would allow for broader accessibility and usability.
+
+Finally, I hope that this project helps to improve the Friday Bar experience in Aarhus, and stimulates further exploration and innovation in the field of spatial analytics.
+
+<!-- CONTACT -->
+## Contact
+Feel free to contact the author Jørgen Højlund Wibe for any questions regarding the project. You may do so through mail on: 201807750@post.au.dk
+
+<!-- AUTHOR AND ACKNOWLEDGEMENTS -->
+## Acknowledgements and contact details
+The tools provided in this readme are developed and provided by Folium, openrouteservice and others. We refer to their documentation page for more detailed information.
